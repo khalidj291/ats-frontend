@@ -1,7 +1,7 @@
 export default function ContactCTA() {
   const contacts = [
-    { name: "Zahid Deshmukh", phone: "+918898802204", display: "+91 88988 02204" },
     { name: "Mahendra Bhujang", phone: "+919987508773", display: "+91 99875 08773" },
+    { name: "Zahid Deshmukh", phone: "+918898802204", display: "+91 88988 02204" },
   ];
 
   return (
@@ -42,7 +42,7 @@ export default function ContactCTA() {
             ))}
 
             <p className="text-gray-500 text-xs mt-1 md:text-right">
-              Serving Mumbai, Navi Mumbai, Thane & Pune
+              Serving India
             </p>
           </div>
 

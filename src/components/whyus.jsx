@@ -1,8 +1,8 @@
 const reasons = [
   {
     number: "01",
-    title: "Authorised Channel Partners",
-    desc: "Factory-trained engineers ensuring OEM-compliant installation and calibration.",
+    title: "Our Clients",
+    desc: "MGL, IOCL, HPCL, Thingas, BPCL",
   },
   {
     number: "02",
@@ -12,7 +12,7 @@ const reasons = [
   {
     number: "03",
     title: "Regional Presence",
-    desc: "Fast on-site response across Mumbai, Navi Mumbai, Thane, and Pune.",
+    desc: "Fast on-site response across all of India.",
   },
   {
     number: "04",
@@ -37,51 +37,29 @@ export default function WhyChooseUs() {
           <p className="text-orange-500 text-xs tracking-widest uppercase mb-2">
             Why Choose Us
           </p>
-
           <h2 className="text-3xl md:text-4xl font-semibold leading-tight">
             Built for Industrial Reliability
           </h2>
-
           <div className="w-8 h-1 bg-orange-500 mt-3" />
         </div>
 
-        {/* Alternating points */}
-        <div className="space-y-8 md:space-y-10">
-
-          {reasons.map((item, index) => (
-            <div
-              key={index}
-              className={`grid md:grid-cols-2 gap-6 md:gap-10 items-start ${
-                index % 2 !== 0 ? "md:[&>*:first-child]:order-2" : ""
-              }`}
-            >
-
-              {/* Left */}
-              <div>
-                <span className="text-orange-500 text-xs tracking-widest">
-                  {item.number}
-                </span>
-
-                <h3 className="text-lg md:text-xl font-semibold mt-1">
-                  {item.title}
-                </h3>
-              </div>
-
-              {/* Right */}
-              <div>
-                <p className="text-gray-400 text-sm leading-relaxed">
-                  {item.desc}
-                </p>
-
-                <div className="w-6 h-[2px] bg-orange-500 mt-3"></div>
-              </div>
-
+        {/* Points grid */}
+        <div className="grid md:grid-cols-2 gap-8">
+          {reasons.map((item) => (
+            <div key={item.number} className="flex flex-col gap-2">
+              <span className="text-orange-500 text-xs tracking-widest">
+                {item.number}
+              </span>
+              <h3 className="text-lg md:text-xl font-semibold">
+                {item.title}
+              </h3>
+              <p className="text-gray-400 text-sm leading-relaxed">
+                {item.desc}
+              </p>
+              <div className="w-6 h-[2px] bg-orange-500 mt-1" />
             </div>
           ))}
-
         </div>
-
-       
 
       </div>
     </section>

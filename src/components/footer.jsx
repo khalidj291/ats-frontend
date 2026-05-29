@@ -38,7 +38,7 @@ export default function Footer() {
               <p className="text-gray-300 mb-3 font-medium">Contact</p>
               <div className="flex flex-col gap-2 text-gray-400">
                 <a href="tel:+918149894566" className="hover:text-orange-400">
-                  +91 81498 94566
+                  +91 99875 08773
                 </a>
                 <span>Mumbai, Maharashtra</span>
                 <span>Navi Mumbai · Thane · Pune</span>

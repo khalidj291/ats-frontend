@@ -17,7 +17,7 @@ export default function Hero() {
 
           <p className="mt-5 max-w-lg text-gray-300 text-lg">
             Installation, repair, and maintenance of gas detection systems,
-            flame detectors, and industrial safety equipment across Mumbai & Maharashtra.
+            flame detectors, and industrial safety equipment across all of India.
           </p>
 
           <div className="mt-8 flex flex-wrap gap-4">

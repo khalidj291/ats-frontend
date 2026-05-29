@@ -62,7 +62,7 @@ export default function Services() {
             <div className="w-10 h-1 bg-orange-500 mt-5" />
           </div>
           <p className="text-gray-500 text-base max-w-sm leading-relaxed md:text-right">
-            Specialists in gas detection and flame detection systems for hazardous industrial environments across Mumbai & Maharashtra.
+            Specialists in gas detection and flame detection systems for hazardous industrial environments across all of india.
           </p>
         </div>
 
