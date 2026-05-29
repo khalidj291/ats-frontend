@@ -40,8 +40,7 @@ export default function Footer() {
                 <a href="tel:+919987508773" className="hover:text-orange-400">
                   +91 99875 08773
                 </a>
-                <span>Mumbai, Maharashtra</span>
-                <span>Navi Mumbai · Thane · Pune</span>
+          
               </div>
             </div>
 
