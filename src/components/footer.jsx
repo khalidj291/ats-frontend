@@ -15,7 +15,7 @@ export default function Footer() {
             </h3>
 
             <p className="text-gray-400 text-sm leading-relaxed mb-5">
-              Specialists in gas detection, flame detection, and industrial safety systems across Mumbai & Maharashtra.
+              Specialists in gas detection, flame detection, and industrial safety systems across India.
             </p>
 
             <div className="w-10 h-[2px] bg-orange-500" />
