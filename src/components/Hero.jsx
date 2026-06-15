@@ -3,11 +3,11 @@ export default function Hero() {
     <section
       className="h-screen flex items-center text-white bg-cover bg-center"
       style={{
-        backgroundImage:
-          "url('https://images.unsplash.com/photo-1503387762-592deb58ef4e?q=80&w=1920')",
+        backgroundImage: "url('/3.jpeg')",
+        backgroundPosition: "center center",
       }}
     >
-      <div className="w-full h-full bg-black/60 flex items-center">
+      <div className="w-full h-full bg-black/70 flex items-center">
         <div className="max-w-6xl mx-auto px-6">
 
           <h1 className="text-5xl md:text-7xl font-bold leading-tight">

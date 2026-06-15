@@ -2,58 +2,81 @@ export default function Products() {
   const products = [
     {
       id: 1,
+      name: "Open Path Gas Detector – Series I",
+      category: "Gas Detection",
+      desc: "Infrared open path detector covering large areas with a single transmitter-receiver pair. Ideal for wide-area leak detection in industrial zones.",
+      type: "Open Path",
+      image: "/1.jpeg",
+    },
+    {
+      id: 2,
+      name: "Open Path Gas Detector – Series II",
+      category: "Gas Detection",
+      desc: "Long-range open path solution for perimeter monitoring. High sensitivity across LNG, LPG, and hydrocarbon applications.",
+      type: "Open Path",
+      image: "/2.jpeg",
+    },
+    {
+      id: 3,
       name: "Point Type Gas Detector – Model A",
       category: "Gas Detection",
       desc: "Fixed point detector for continuous monitoring of flammable and toxic gases in industrial environments.",
       type: "Point Type",
-      image: "/PointType1.jpeg",
+      image: "/3.jpeg",
     },
     {
-      id: 2,
+      id: 4,
       name: "Point Type Gas Detector – Model B",
       category: "Gas Detection",
       desc: "Rugged fixed detector designed for harsh conditions — refineries, chemical plants, and offshore platforms.",
       type: "Point Type",
-      image: "/Point%20Type2.jpeg",
-    },
-    {
-      id: 3,
-      name: "Open Path Gas Detector – Series I",
-      category: "Gas Detection",
-      desc: "Infrared open path detector covering large areas with a single transmitter-receiver pair.",
-      type: "Open Path",
-      image: "/Openpath1.jpeg",
-    },
-    {
-      id: 4,
-      name: "Open Path Gas Detector – Series II",
-      category: "Gas Detection",
-      desc: "Long-range open path solution for perimeter monitoring and wide-area leak detection.",
-      type: "Open Path",
-      image: "/Openpath2.jpeg",
+      image: "/4.jpeg",
     },
     {
       id: 5,
-      name: "Open Path Gas Detector – Series III",
+      name: "Point Type Gas Detector – Model C",
       category: "Gas Detection",
-      desc: "High-sensitivity open path detector suitable for LNG, LPG, and hydrocarbon applications.",
-      type: "Open Path",
-      image: "/Openpath3.jpeg",
+      desc: "Compact point detector with fast response time, suited for confined spaces and utility areas.",
+      type: "Point Type",
+      image: "/5.jpeg",
     },
     {
       id: 6,
-      name: "Flame Detector",
-      category: "Flame Detection",
-      desc: "UV/IR flame detector with rapid response for early fire detection in high-risk industrial zones.",
-      type: "UV/IR",
-      image: "/FlameDetector.jpeg",
+      name: "Point Type Gas Detector – Model D",
+      category: "Gas Detection",
+      desc: "Heavy-duty detector with robust housing, built for continuous outdoor and high-vibration environments.",
+      type: "Point Type",
+      image: "/6.jpeg",
+    },
+    {
+      id: 7,
+      name: "Point Type Gas Detector – Model E",
+      category: "Gas Detection",
+      desc: "Multi-range point detector supporting both flammable and toxic gas sensing with dual-channel output.",
+      type: "Point Type",
+      image: "/7.jpeg",
+    },
+    {
+      id: 8,
+      name: "Point Type Gas Detector – Model F",
+      category: "Gas Detection",
+      desc: "Electrochemical point detector optimised for low-concentration toxic gas detection in process industries.",
+      type: "Point Type",
+      image: "/8.jpeg",
+    },
+    {
+      id: 9,
+      name: "Point Type Gas Detector – Model G",
+      category: "Gas Detection",
+      desc: "Catalytic bead sensor for flammable gas detection, offering reliable performance across a wide temperature range.",
+      type: "Point Type",
+      image: "/9.jpeg",
     },
   ];
 
   const typeStyle = {
     "Point Type": "text-orange-600 bg-orange-50 border-orange-300",
     "Open Path":  "text-blue-600 bg-blue-50 border-blue-300",
-    "UV/IR":      "text-amber-600 bg-amber-50 border-amber-300",
   };
 
   return (
@@ -63,21 +86,21 @@ export default function Products() {
       <div className="bg-gray-900 pt-28 pb-12 px-6">
         <div className="max-w-6xl mx-auto">
           <p className="text-orange-400 text-xs font-semibold uppercase tracking-widest mb-3">
-  What we service
-</p>
-<h1 className="text-3xl md:text-4xl font-bold text-white mb-3">
-  Our Products
-</h1>
-<p className="text-gray-400 text-sm max-w-lg leading-relaxed">
-  We specialise in the repair, calibration, and maintenance of gas detection systems,
-  flame detectors, and industrial safety equipment across Mumbai & Maharashtra.
-</p>
+            What we service
+          </p>
+          <h1 className="text-3xl md:text-4xl font-bold text-white mb-3">
+            Our Products
+          </h1>
+          <p className="text-gray-400 text-sm max-w-lg leading-relaxed">
+            We specialise in the repair, calibration, and maintenance of gas detection systems,
+            flame detectors, and industrial safety equipment across Mumbai & Maharashtra.
+          </p>
         </div>
       </div>
 
       {/* Grid */}
       <div className="max-w-6xl mx-auto px-6 py-14">
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {products.map((product) => (
             <div
               key={product.id}

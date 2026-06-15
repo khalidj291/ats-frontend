@@ -22,7 +22,7 @@ export default function ContactCTA() {
 
             <p className="text-gray-600 text-sm leading-relaxed max-w-md">
               Whether you need a new installation, system upgrade, or AMC support,
-              our team is ready to assist across Mumbai and Maharashtra.
+              our team is ready to assist across India.
             </p>
 
             <div className="w-8 h-[2px] bg-orange-500 mt-5" />
