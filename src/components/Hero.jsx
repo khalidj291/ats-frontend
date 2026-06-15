@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export default function Hero() {
   return (
     <section
@@ -24,9 +26,9 @@ export default function Hero() {
             <a href="tel:+919987508773" className="bg-orange-500 px-6 py-3 text-sm font-medium hover:bg-orange-600 transition">
               Call Now
             </a>
-            <a href="/products" className="border border-white px-6 py-3 text-sm hover:bg-white hover:text-black transition">
+            <Link to="/products" className="border border-white px-6 py-3 text-sm hover:bg-white hover:text-black transition">
               View Products
-            </a>
+            </Link>
           </div>
 
         </div>
